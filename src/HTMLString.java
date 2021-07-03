@@ -4,5 +4,7 @@ public class HTMLString {
         this.HtmlString = str;
     }
 
-
+    public String getHtmlString() {
+        return HtmlString;
+    }
 }
