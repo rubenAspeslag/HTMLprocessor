@@ -10,7 +10,7 @@ public class HtmlFile {
         this.path = path;
     }
 
-    public  String getContent()
+        public  String getContent()
     {
         StringBuilder contentBuilder = new StringBuilder();
 
