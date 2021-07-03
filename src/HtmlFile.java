@@ -10,8 +10,7 @@ public class HtmlFile {
         this.path = path;
     }
 
-        public  String getContent()
-    {
+        public  String getContent() {
         StringBuilder contentBuilder = new StringBuilder();
 
         try (Stream<String> stream = Files.lines( Paths.get(path), StandardCharsets.UTF_8))
@@ -25,4 +24,5 @@ public class HtmlFile {
 
         return contentBuilder.toString();
     }
+
 }
